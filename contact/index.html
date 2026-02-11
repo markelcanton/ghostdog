@@ -1,0 +1,50 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Ghost Dog</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="website icon" type="png" href="../img/ico/logo.png">
+    </head>
+    <body>
+        <header class="titulo">
+            <h1>Ghost Dog</h1>
+            <nav class="centrado">
+                <button onclick="window.location.href='../index.html';">Inicio</button>
+                <button onclick="window.location.href='../about/index.html';">Sobre nosotros</button>
+                <button onclick="window.location.href='../news/index.html';">Noticias</button>
+                <button onclick="window.location.href='../reviews/index.html';">Opiniones</button>
+                <button onclick="window.location.href='../services/index.html';">Servicios</button>
+                <button class="active">Contacto</button>
+            </nav>
+        </header>
+        <form action="mailto:markelcantonik19@afi.eus" method="post">
+            <main>
+                <section id="main-container" class="bordered">
+                    <h1>¡Ponte en contacto con nosotros!</h1>
+                    <hr>
+                    <p>* = campo requerido</p>
+                </section>
+                <section id="main-container" class="bordered">
+                    <p><label>Nombre: *</label><input type="text" name="nombre" required size="32"></p>
+                    <p><label>Email: </label><input type="email" name="email" placeholder="@" size="35"></p>
+                    <p><label>Mensaje: *</label></p>
+                    <p>
+                        <textarea></textarea>
+                    </p>
+                    <p>
+                        Al enviar el formulario, aceptas los términos y condiciones de Ghost Dog.
+                    <p>
+                        <center><button onclick='submit'>Enviar</button></center>
+                    </p>
+                </section>
+            </main>
+        </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <p><b>©</b> 2026 - Ghost Dog</p>
+            </div>
+        </footer>
+    </body>
+</html>
