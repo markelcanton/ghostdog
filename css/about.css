@@ -1,0 +1,10 @@
+.ghostdog {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.ghostdog-img {
+    width: 320px;
+    max-width: 450px;
+}

@@ -1,0 +1,80 @@
+html {
+    background-image: url('https://2ab1cb94ca.cbaul-cdnwnd.com/9942443f4da3431b3ad181105dcbe47d/200000016-a44c7a44c9/ghostdogbanner.webp?ph=2ab1cb94ca');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body { 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: system-ui, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: end;
+    background-color: #ffffffad;
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+    padding: 10px;
+}
+
+.footer {
+    background-color: #3f3f3f9f;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.centrado {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+header button {
+    background: #797979;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 20px;
+    padding: 0 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header button:hover {
+    background: dodgerblue;
+    box-shadow: 2px 2px 15px dodgerblue;
+}
+
+header button.active {
+    background: rgb(21, 78, 136);
+    box-shadow: 2px 2px 15px rgb(21, 78, 136);
+}
+
+section {
+    flex: 1;
+    min-width: 500px;
+    background-color: #ffffffd7;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #CCC;
+    flex-direction: column;
+    border: 1px solid #DDD;
+}

@@ -1,0 +1,36 @@
+.ghostdog {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+img {
+    width: 200px;
+    max-width: 200px;
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+main button {
+    background: #797979;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    padding: 0 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+main button:hover {
+    background: rgb(152, 204, 255);
+    color: black;
+    box-shadow: 2px 2px 15px rgb(152, 204, 255);
+}
